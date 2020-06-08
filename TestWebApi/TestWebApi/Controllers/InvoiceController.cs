@@ -10,7 +10,7 @@ using TestWebApi.Services;
 
 namespace TestWebApi.Controllers
 {
-    //[Authorize]
+    [Authorize]
     [Route("[controller]/[action]")]
     [ApiController]
     public class InvoiceController : ControllerBase
